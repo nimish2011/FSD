@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">NETFLIX</h1>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#tvshows">TV Shows</a>
+                <a href="#movies">Movies</a>
+                <a href="#mylist">My List</a>
+            </nav>
+            <div class="header-right">
+                <input type="text" placeholder="Search" class="search-box">
+                <div class="user-profile">👤</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Stranger Things</h2>
+            <div class="hero-buttons">
+                <button class="btn btn-play">▶ Play</button>
+                <button class="btn btn-info">ℹ More Info</button>
+            </div>
+            <p class="hero-description">
+                When a young boy vanishes, a small town uncovers a mystery involving secret experiments, 
+                terrifying supernatural forces and one strange little girl.
+            </p>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- Movie Rows -->
+    <main class="main-content">
+        <section class="row">
+            <h3 class="row-title">Trending Now</h3>
+            <div class="row-posters" id="trending">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+
+        <section class="row">
+            <h3 class="row-title">Top Rated</h3>
+            <div class="row-posters" id="toprated">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+
+        <section class="row">
+            <h3 class="row-title">Action Movies</h3>
+            <div class="row-posters" id="action">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+
+        <section class="row">
+            <h3 class="row-title">Horror Movies</h3>
+            <div class="row-posters" id="horror">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+
+        <section class="row">
+            <h3 class="row-title">Romance Movies</h3>
+            <div class="row-posters" id="romance">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+
+        <section class="row">
+            <h3 class="row-title">Documentaries</h3>
+            <div class="row-posters" id="documentaries">
+                <!-- Movies will be added here via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Netflix Clone - Educational Project</p>
+        <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
